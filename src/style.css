@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 6vmin;
+}
+
+
+.section h1{
+    position:absolute;
+    z-index: 100;
+    transform: translateY(-300%);
+
+
+   
+}
+.title{
+    color:white;
+    z-index: 100;
+}
